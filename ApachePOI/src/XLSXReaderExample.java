@@ -22,7 +22,7 @@ public class XLSXReaderExample {
 	public static void main(String[] args) {
 		try {
 			//File file = new File("C:\\employee.xlsx"); // creating a new file instance
-			File file = new File(".\\datafiles\\employee.xlsx"); // creating
+			File file = new File(".\\datafiles\\Countries.xlsx"); // creating
 			
 			FileInputStream files = new FileInputStream(file); 
 			XSSFWorkbook workbook = new XSSFWorkbook(files);
